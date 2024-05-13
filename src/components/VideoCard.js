@@ -1,7 +1,6 @@
 import React from "react";
 
 const VideoCard = ({ info }) => {
-  console.log(info);
   if (info == undefined) return <h1>Loading..</h1>;
   const { snippet, statistics } = info;
   const { thumbnails, title, channelTitle } = snippet;
