@@ -10,7 +10,9 @@ const VideoCard = ({ info }) => {
     <div className="p-2 m-2 w-72 shadow-lg">
       <img src={thumbnails.medium.url} className="rounded-lg" />
       <ul>
-        <li className="font-bold py-2">{title}</li>
+        <li className="font-bold py-2">
+          {title.length > 55 ? title.slice(0, 55) + "...." : title}
+        </li>
         <li>{channelTitle}</li>
         <li>{viewCount}</li>
       </ul>

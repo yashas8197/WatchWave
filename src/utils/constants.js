@@ -5,4 +5,6 @@ export const YOUTUBE_API_KEY =
   API_KEY;
 
 export const YOUTUBE_SUGGESTION_API =
-  "http://suggestqueries.google.com/complete/search?client=youtube&ds=yt&client=firefox&q=Query";
+  "http://suggestqueries.google.com/complete/search?client=youtube&ds=yt&client=firefox&q=";
+
+export const LIVE_CHAT_COUNT = 20;
